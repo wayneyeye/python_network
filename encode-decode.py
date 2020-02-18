@@ -7,3 +7,14 @@ input_bytes=b'\xff\xfe4\x001\x003\x00'
 input_characters=input_bytes.decode('utf-16')
 print(input_bytes)
 print(repr(input_characters))
+
+print('123\\')
+b=bytes([0,1,98,101])
+print(b)
+
+# print ascii
+for i in range(32,128,32):
+	print(' '.join(chr(j) for j in range(i,i+32)))
+
+
+
