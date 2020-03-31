@@ -1,0 +1,2 @@
+python3-memcached==1.51
+pyzmq==19.0.0
