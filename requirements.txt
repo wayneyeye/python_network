@@ -4,5 +4,5 @@ idna==2.9
 python3-memcached==1.51
 pyzmq==19.0.0
 requests==2.23.0
-urllib3==1.25.8
+urllib3==1.26.5
 Werkzeug==1.0.1
